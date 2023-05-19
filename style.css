@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+/* i have to add this into my css to add a font */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* i can also change the font of other tags by referencing then example
+H1,h2,h3 etc */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://images.pexels.com/photos/7245333/pexels-photo-7245333.jpeg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    color:aliceblue;
+    text-decoration: none;
+}
+p{
+    font-size: 2em;
+    color: aliceblue;
+}
+/* Top of page nav bar */
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* changing the link on the web page to be appealing */
+nav a{
+    margin: 20px;
+
+}
+
+.main-text{
+    color: aliceblue;
+    align-self: center;
+    margin: 200px 0px 0px 0px;
+    font-size: 7em;
+}
+
+.CTA{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 12px;
+}
+section, form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4em;
+    gap: 20px;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    font-size: 36px;
+    padding: 1%;
+    border-radius: 6px;
+
+}
+
+button{
+    font-size: 36px;
+    padding: 1%;
+    border-radius: 6px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: black;
+    padding: 2%;
+    
+}
+
+.footer-section{
+    font-size: 25px;
+    border: .5px solid gainsboro;
+    border-radius: 12px;
+    padding: 3%;
+    color: rgb(244, 241, 241);
+}
